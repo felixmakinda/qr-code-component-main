@@ -1,0 +1,55 @@
+/*# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+*/
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+}
+@media (min-width:375px) {
+    body{
+        width: 100%;
+    };
+    }
+@media (min-width:1140px){
+    body{
+        width: 50%;
+    }
+}
+section{
+   display:flex; 
+   flex-direction: column;
+   width: 300px;
+   height: 500px;
+   background-color: hsl(0, 0%, 100%);
+   border: 15px solid hsl(0, 0%, 100%);
+   border-radius: 10px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400, 700;
+   position: absolute;
+   top: 25%;
+   left: 50%;
+   margin-top: -100px;
+   margin-left: -100px;
+}
+section img{
+    border-radius: 10px;
+}
+section h2{
+    color:hsl(218, 44%, 22%)
+}
+section p{
+    color: hsl(220, 15%, 55%);
+}
